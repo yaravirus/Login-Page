@@ -1,0 +1,97 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+}
+.login{
+      
+        height: 17rem;
+        width: 18rem;
+        margin: 8rem 26rem ;
+        border-radius: 15px;
+        backdrop-filter: blur(100px);
+}
+.login1{
+       
+        height: 3rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 3.5rem;
+        color: white;
+        
+}
+.username{
+        width: 13rem;
+        height: 2rem;
+     
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius:40px;
+        border-top-left-radius:40px;
+        margin-left: 55px;
+}
+#username{
+        margin-top: 1rem;
+        background: transparent;
+        border: none;
+        border: 2px solid rgb(247, 247, 248);
+}
+#password{
+        margin-top: 1.5rem;
+        background: transparent;
+        border: none;
+        border: 2px solid rgb(242, 242, 247);
+}
+label{
+        
+        font-size: 15px;
+        margin-left: 2.5rem;
+        color: white;
+        margin-top: 3rem;
+       
+}
+.forget{
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+}
+.login3{
+        width: 73%;
+        height: 2rem;
+        margin-top: 1rem;
+        margin-left: 2.3rem;
+        border-radius: 20px;
+        font-weight: 200;
+        border: none;
+        border: 2px solid rgb(22, 22, 69);
+        cursor: pointer;
+      
+}
+.login3:hover{
+        opacity: 0.7;
+}
+.para{
+        width: 130%;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-left: 4rem;
+        color: white;
+                                                                          
+}
+#register{
+        text-decoration: none;
+        color: white;
+}
+.username::placeholder{
+        color: white;
+        
+}
+input.username{
+        padding: 20px 10px;
+        outline: none;
+        
+}
